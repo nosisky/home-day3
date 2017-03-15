@@ -8,7 +8,7 @@ const myArray = {
     }
   },
   toForty(i) {
-    let result = Array.from(Arry(20), (v,i) => i+1).map(function(i) {
+    let result = Array.from(Array(20), (v,i) => i+1).map(function(i) {
       return i * 2; //to forty
     });
     if(!i){
