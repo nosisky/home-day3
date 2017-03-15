@@ -12,13 +12,17 @@ fieldset, form, label, legend {
 }
 body.login { background: url(bg.jpg); }
 h2 { font-size: 30px; line-height:38px; font-weight:normal; }
-.loginbox { background: #FBFCFD; padding: 10px; width: 490px; margin: 4% auto 0 auto; position: relative; }
+.loginbox { background: #FBFCFD; padding: 10px; width: 490px; margin: 4% 5% 0 auto; position: relative; }
 .loginboxinner {
     background: #FBFCFD; padding: 5px; position: relative; border: 1px solid #FBFCFD;
     -moz-box-shadow: inset 0 1px 0 #FBFCFD; -webkit-box-shadow: inset 0 1px 0 #FBFCFD; box-shadow: inset 0 1px 0 #FBFCFD;
 }
 .loginheader { height: 20px; }
-.loginform { margin: 4px auto; text-align:center; }
+.loginform { 
+    margin: 4px auto; 
+    text-align:center; 
+    align: right;
+}
 
 .loginbox h1 { font-size: 30px; letter-spacing: 1px; color: #555; font-weight: normal; padding-top: 10px; }
 .loginbox p { margin: 7px 0 5px 0; }
