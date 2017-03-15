@@ -89,7 +89,7 @@ describe('Binary Search to traverse an ordered list, effectively', function() {
       expect(search.index).toBe(3);
     });
 
-    it('should return {count: /* <= 5*/, index: 87} for 800', function() {
+    it('should return {cout: /* <= 5*/, index: 87} for 800', function() {
       var search  = tenToOneThousand.search(880);
       expect(search.count).toBeLessThan(6);
       expect(search.index).toBe(87);
