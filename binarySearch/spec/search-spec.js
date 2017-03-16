@@ -1,8 +1,3 @@
-'use strict'
-let myArray = require('../app/library.js');
-let oneToTwenty = myArray.toTwenty();
-let twoToForty = myArray.toForty();
-let tenToOneThousand = myArray.toOneThousand();
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
     
